@@ -17,5 +17,8 @@
   "bugs": {
     "url": "https://github.com/Hrick-08/mern-thinkboard/issues"
   },
-  "homepage": "https://github.com/Hrick-08/mern-thinkboard#readme"
+  "homepage": "https://github.com/Hrick-08/mern-thinkboard#readme",
+  "devDependencies": {
+    "vite": "^5.0.0"
+  }
 }
