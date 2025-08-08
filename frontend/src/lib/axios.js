@@ -1,6 +1,6 @@
 import axios from "axios"
 
-BASE_URL = import.meta.env.MODE === "development" ? "http://localhost:5001/api" : "/api"
+BASE_URL = import.meta.env.MODE === "development" ? "http://localhost:5001/api" : `${import.meta.env.VITE_BASE_URL}/api`
 const api = axios.create({
     baseURL : BASE_URL
 })
